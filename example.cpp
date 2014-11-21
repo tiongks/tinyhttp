@@ -45,9 +45,9 @@ $ g++ -o example example.cpp
 
 // directly embed the source here
 extern "C" {
-	#include "http.c"
-	#include "header.c"
-	#include "chunk.c"
+	#include "http.h"
+	#include "header.h"
+	#include "chunk.h"
 }
 
 // return a socket connected to a hostname, or -1
